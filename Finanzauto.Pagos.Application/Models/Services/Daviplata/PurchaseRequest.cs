@@ -12,5 +12,16 @@ namespace Finanzauto.Pagos.Application.Models.Services.Daviplata
 
         [JsonPropertyName("tipoDocumento")]
         public string TipoDocumento { get; set; }
+
+        public PurchaseRequest(decimal value, string identificationNumber, string documentType)
+        {
+            Valor = value.ToString();
+            NumeroIdentificacion = identificationNumber;
+            TipoDocumento = documentType;
+        }
+        public PurchaseRequest()
+        {
+            
+        }
     }
 }

@@ -1,6 +1,10 @@
-@Finanzauto.Pagos_HostAddress = http://localhost:5030
+@Finanzauto.Pagos_HostAddress = https://localhost:7170
 
-GET {{Finanzauto.Pagos_HostAddress}}/weatherforecast/
-Accept: application/json
+POST {{Finanzauto.Pagos_HostAddress}}/pays/pay
+Content-Type: application/json
+
+{
+  //PayCommand
+}
 
 ###

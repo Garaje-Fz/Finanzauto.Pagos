@@ -18,5 +18,18 @@ namespace Finanzauto.Pagos.Application.Models.Services.Daviplata
 
         [JsonPropertyName("idTransaccion")]
         public long IdTransaccion { get; set; }
+
+        public ConfirmRequest(string otp, string idSessionToken, string idComercio, string idTerminal, long idTransaccion)
+        {
+            Otp = otp;
+            IdSessionToken = idSessionToken;
+            IdComercio = idComercio;
+            IdTerminal = idTerminal;
+            IdTransaccion = idTransaccion;
+        }
+        public ConfirmRequest()
+        {
+            
+        }
     }
 }

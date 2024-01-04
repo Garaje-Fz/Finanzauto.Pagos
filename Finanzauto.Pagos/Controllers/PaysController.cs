@@ -1,4 +1,4 @@
-﻿using Finanzauto.Pagos.Application.Features.Pays.Commands.Pay;
+﻿using Finanzauto.Pagos.Application.Features.Pays.Commands;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
@@ -16,10 +16,10 @@ namespace Finanzauto.Pagos.Controllers
         }
 
         [HttpPost("pay")]
-        public async Task<ActionResult> Pay([FromBody] PayCommand command)
+        public async Task<ActionResult> Pay([FromBody] CreatePay command)
         {
             await _mediator.Send(command);
-            return Ok();
+            return NoContent();
         }
     }
 }

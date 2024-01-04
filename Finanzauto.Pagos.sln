@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Finanzauto.Pagos", "Finanzauto.Pagos\Finanzauto.Pagos.csproj", "{E8DBE453-6685-4D95-93AA-AC05B215D3D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Finanzauto.Pagos", "Finanzauto.Pagos\Finanzauto.Pagos.csproj", "{E8DBE453-6685-4D95-93AA-AC05B215D3D8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{31E3D470-47D4-4E10-B1AD-A69E6973637B}"
 EndProject
@@ -13,34 +13,52 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{0446AA8B-F13B-45E7-B1AB-7010183E1DB3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Finanzauto.Pagos.Domain", "Finanzauto.Pagos.Domain\Finanzauto.Pagos.Domain.csproj", "{0FE8BD18-0259-4784-834D-07C2C2ED7F0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Finanzauto.Pagos.Domain", "Finanzauto.Pagos.Domain\Finanzauto.Pagos.Domain.csproj", "{0FE8BD18-0259-4784-834D-07C2C2ED7F0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Finanzauto.Pagos.Application", "Finanzauto.Pagos.Application\Finanzauto.Pagos.Application.csproj", "{7527474F-4B3E-4FD1-A6C9-B1272828B713}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Finanzauto.Pagos.Application", "Finanzauto.Pagos.Application\Finanzauto.Pagos.Application.csproj", "{7527474F-4B3E-4FD1-A6C9-B1272828B713}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Finanzauto.Pagos.Infrastructure", "Finanzauto.Pagos.Infrastructure\Finanzauto.Pagos.Infrastructure.csproj", "{B7F45A56-B14D-4A37-BFC2-A8643BF3C1A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Finanzauto.Pagos.Infrastructure", "Finanzauto.Pagos.Infrastructure\Finanzauto.Pagos.Infrastructure.csproj", "{B7F45A56-B14D-4A37-BFC2-A8643BF3C1A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{E8DBE453-6685-4D95-93AA-AC05B215D3D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E8DBE453-6685-4D95-93AA-AC05B215D3D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8DBE453-6685-4D95-93AA-AC05B215D3D8}.Debug|x86.ActiveCfg = Debug|x86
+		{E8DBE453-6685-4D95-93AA-AC05B215D3D8}.Debug|x86.Build.0 = Debug|x86
 		{E8DBE453-6685-4D95-93AA-AC05B215D3D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E8DBE453-6685-4D95-93AA-AC05B215D3D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8DBE453-6685-4D95-93AA-AC05B215D3D8}.Release|x86.ActiveCfg = Release|x86
+		{E8DBE453-6685-4D95-93AA-AC05B215D3D8}.Release|x86.Build.0 = Release|x86
 		{0FE8BD18-0259-4784-834D-07C2C2ED7F0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0FE8BD18-0259-4784-834D-07C2C2ED7F0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FE8BD18-0259-4784-834D-07C2C2ED7F0F}.Debug|x86.ActiveCfg = Debug|x86
+		{0FE8BD18-0259-4784-834D-07C2C2ED7F0F}.Debug|x86.Build.0 = Debug|x86
 		{0FE8BD18-0259-4784-834D-07C2C2ED7F0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0FE8BD18-0259-4784-834D-07C2C2ED7F0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FE8BD18-0259-4784-834D-07C2C2ED7F0F}.Release|x86.ActiveCfg = Release|x86
+		{0FE8BD18-0259-4784-834D-07C2C2ED7F0F}.Release|x86.Build.0 = Release|x86
 		{7527474F-4B3E-4FD1-A6C9-B1272828B713}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7527474F-4B3E-4FD1-A6C9-B1272828B713}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7527474F-4B3E-4FD1-A6C9-B1272828B713}.Debug|x86.ActiveCfg = Debug|x86
+		{7527474F-4B3E-4FD1-A6C9-B1272828B713}.Debug|x86.Build.0 = Debug|x86
 		{7527474F-4B3E-4FD1-A6C9-B1272828B713}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7527474F-4B3E-4FD1-A6C9-B1272828B713}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7527474F-4B3E-4FD1-A6C9-B1272828B713}.Release|x86.ActiveCfg = Release|x86
+		{7527474F-4B3E-4FD1-A6C9-B1272828B713}.Release|x86.Build.0 = Release|x86
 		{B7F45A56-B14D-4A37-BFC2-A8643BF3C1A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B7F45A56-B14D-4A37-BFC2-A8643BF3C1A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7F45A56-B14D-4A37-BFC2-A8643BF3C1A9}.Debug|x86.ActiveCfg = Debug|x86
+		{B7F45A56-B14D-4A37-BFC2-A8643BF3C1A9}.Debug|x86.Build.0 = Debug|x86
 		{B7F45A56-B14D-4A37-BFC2-A8643BF3C1A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7F45A56-B14D-4A37-BFC2-A8643BF3C1A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7F45A56-B14D-4A37-BFC2-A8643BF3C1A9}.Release|x86.ActiveCfg = Release|x86
+		{B7F45A56-B14D-4A37-BFC2-A8643BF3C1A9}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

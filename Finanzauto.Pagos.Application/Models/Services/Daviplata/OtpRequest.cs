@@ -12,5 +12,16 @@ namespace Finanzauto.Pagos.Application.Models.Services.Daviplata
 
         [JsonPropertyName("notificationType")]
         public string NotificationType { get; set; }
+
+        public OtpRequest(string typeDocument, string numberDocument, string notificationType)
+        {
+            TypeDocument = typeDocument;
+            NumberDocument = numberDocument;
+            NotificationType = notificationType;
+        }
+        public OtpRequest()
+        {
+            
+        }
     }
 }
