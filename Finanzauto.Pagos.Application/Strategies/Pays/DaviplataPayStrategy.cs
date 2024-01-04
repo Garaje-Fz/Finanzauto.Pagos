@@ -12,8 +12,8 @@ namespace Finanzauto.Pagos.Application.Strategies.Pays
         private readonly IUnitOfWork _unitOfWork;
 
         private const string NOTIFICATION_TYPE = "API_DAVIPLATA";
-        private const string ID_COMERCIO = "";
-        private const string ID_TERMINAL = "";
+        private const string ID_COMERCIO = "0010203040";
+        private const string ID_TERMINAL = "ESB10934";
 
         public DaviplataPayStrategy(IDaviplataService daviplataService, IUnitOfWork unitOfWork)
         {
